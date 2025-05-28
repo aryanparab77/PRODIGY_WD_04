@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(249, 249, 249); /* #f9f9f9 */
+  color: rgb(34, 34, 34); /* #222 */
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  color: white; /* #fff */
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links a {
+  color: white; /* #fff */
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: rgb(0, 170, 255); /* #00aaff */
+}
+
+.section {
+  padding: 2.5rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: rgb(0, 68, 102); /* #004466 */
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.home-section {
+  background: linear-gradient(to right, rgb(0, 170, 255), rgb(0, 68, 102));
+  color: white;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro p {
+  font-size: 1.2rem;
+}
+
+.list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.8rem;
+  list-style: none;
+  padding: 0;
+}
+
+.list-grid li {
+  background-color: rgb(225, 245, 254); /* #e1f5fe */
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(17, 17, 17); /* #111 */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
